@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class ManufacturerRepository : IRepository<Manufacturer>
+    public class ManufacturerRepository : IRepository<Manufacturer> 
     {
         ShopAdoEntities db = new ShopAdoEntities();
 
